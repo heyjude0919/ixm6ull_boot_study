@@ -1,0 +1,17 @@
+#               表示此为注释,将被Git忽略
+*.o            
+u-boot.*
+*.su
+*.cmd
+
+.config
+.u-boot.cfg.d
+System.map
+arch/arm/lib/asm-offsets.s
+arch/arm/lib/lib.a
+board/freescale/mx6ullevk/imximage-ddr512.cfg.cfgtmp
+include/config/
+include/generated/
+lib/asm-offsets.s
+u-boot
+u-boot-nodtb.bin
